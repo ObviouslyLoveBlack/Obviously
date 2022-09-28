@@ -1,0 +1,2126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美团网</title>
+    <!-- 引入本地的bootstrap的css文件 -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- 先引入jQuery的js文件 -->
+    <script src="../js/jQuery-min.js"></script>
+    <!-- 再引入bootstrap的js文件 -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <!-- 引入css -->
+    <link rel="stylesheet" href="../css/index.min.css">
+    <!-- 引入图标库 -->
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="middle">
+            <div class="header-left">
+                <i class="fa fa-map-marker"></i>
+                <span>南昌</span>
+                <button><a href="">切换城市</a></button>
+                <span class="adder">[
+                    <a href="">奉新</a>
+                    <a href="">丰城</a>
+                    <a href="">高安</a>]</span>
+                <ul>
+                    <li><a href="">立即登录</a></li>
+                    <li><a href="">注册</a></li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <nav>
+                    <ul>
+                        <li id="dropdownMenuButton1" data-toggle="dropdown" aria-expanded="false">
+                            <a href="">我的美团</a>
+                        </li>
+                        <li id="dropdownMenuButton2" data-toggle="dropdown" aria-expanded="false">
+                            <a href="">手机APP</a>
+                        </li>
+                        <li id="dropdownMenuButton3" data-toggle="dropdown" aria-expanded="false">
+                            <a href="">商家中心</a>
+                        </li>
+                        <li id="dropdownMenuButton4" data-toggle="dropdown" aria-expanded="false">
+                            <a href="">美团规则</a>
+                        </li>
+                        <li id="dropdownMenuButton5" data-toggle="dropdown" aria-expanded="false">
+                            <a href="">网站导航</a>
+                        </li>
+                        <li id="dropdownMenuButton6" data-toggle="dropdown" aria-expanded="false">
+                            <a href="">药品信息</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        </div>
+    </header>
+    <div class="search">
+        <div class="middle-2">
+            <div class="search-left">
+                <img src="../image/logo-2.png" alt="">
+            </div>
+            <div class="search-right clearfix">
+                <input type="text" name="" id="" placeholder="搜索商家或地点">
+                <div class="logo-search">
+                    <i class="fa fa-search"></i>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="">美团外卖</a></li>
+                <li><a href="">猫眼电影</a></li>
+                <li><a href="">美团酒店</a></li>
+                <li><a href="">名宿/公寓</a></li>
+                <li><a href="">商家入驻</a></li>
+                <li><a href="">美团公益</a></li>
+            </ul>
+        </div>
+    </div>
+    <main>
+        <div class="middle-3">
+            <div class="aside">
+                <div class="banner">
+                    <h3>全部分类</h3>
+                    <ul>
+                        <li><i class="fa fa-cutlery"></i><a href="">美食</a><i class="fa fa-angle-right"></i></li>
+                        <li><i class="fa fa-vimeo"></i><a href="">外卖</a><i class="fa fa-angle-right"></i></li>
+                        <li><i class="fa fa-university"></i><a href="">酒店</a><i class="fa fa-angle-right"></i></li>
+                        <li><i class="fa fa-home"></i><a href="">名宿</a><i class="fa fa-angle-right"></i></li>
+                        <li><i class="fa fa-twitter"></i><a href="">猫眼电影</a><i class="fa fa-angle-right"></i></li>
+                        <li><i class="fa fa-space-shuttle"></i><a href="">机票/火车票</a><i class="fa fa-angle-right"></i>
+                        </li>
+                        <li><i class="fa fa-music"></i><a href="">休闲娱乐/KTV</a><i class="fa fa-angle-right"></i></li>
+                        <li><i class="fa fa-bank"></i><a href="">生活服务</a><i class="fa fa-angle-right"></i></li>
+                        <li><i class="fa fa-female"></i><a href="">丽人/美发/医学美容</a><i class="fa fa-angle-right"></i></li>
+                        <li><i class="fa fa-heart"></i><a href="">结婚/婚纱摄影/婚宴</a><i class="fa fa-angle-right"></i></li>
+                        <li><i class="fa fa-user"></i><a href="">亲子/儿童乐园/幼教</a><i class="fa fa-angle-right"></i></li>
+                        <li><i class="fa fa-legal"></i><a href="">运动健身/健身中心</a><i class="fa fa-angle-right"></i></li>
+                        <li><i class="fa fa-linode"></i><a href="">家装/建材/家居</a><i class="fa fa-angle-right"></i></li>
+                        <li><i class="fa fa-book"></i><a href="">学习培训/音乐培训</a><i class="fa fa-angle-right"></i></li>
+                        <li><i class="fa fa-plus-square"></i><a href="">医疗健康/宠物/爱车</a><i class="fa fa-angle-right"></i>
+                        </li>
+                        <li><i class="fa fa-filter"></i><a href="">酒吧/密室逃脱</a><i class="fa fa-angle-right"></i></li>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <div class="item">
+                        <div class="item-header">
+                            <span>美食</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">代金卷</a></li>
+                            <li><a href="">甜点饮品</a></li>
+                            <li><a href="">火锅</a></li>
+                            <li><a href="">自助餐</a></li>
+                            <li><a href="">小吃快餐</a></li>
+                            <li><a href="">日韩料理</a></li>
+                            <li><a href="">西餐</a></li>
+                            <li><a href="">聚餐宴请</a></li>
+                            <li><a href="">烧烤烤肉</a></li>
+                            <li><a href="">东北菜</a></li>
+                            <li><a href="">川湘菜</a></li>
+                            <li><a href="">江浙菜</a></li>
+                            <li><a href="">香锅烤鱼</a></li>
+                            <li><a href="">澳港菜</a></li>
+                            <li><a href="">中式烧烤/烤串</a></li>
+                            <li><a href="">西北菜</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <li><a href="">咖啡酒吧茶馆</a></li>
+                            <li><a href="">云贵菜</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span>外卖</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">美团外卖</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span>酒店</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">经济型</a></li>
+                            <li><a href="">舒适/三星</a></li>
+                            <li><a href="">高档/四星</a></li>
+                            <li><a href="">豪华/五星</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span>热门城市</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">上海</a></li>
+                            <li><a href="">成都</a></li>
+                            <li><a href="">北京</a></li>
+                            <li><a href="">重庆</a></li>
+                            <li><a href="">南京</a></li>
+                            <li><a href="">杭州</a></li>
+                            <li><a href="">广州</a></li>
+                            <li><a href="">西安</a></li>
+                            <li><a href="">武汉</a></li>
+                            <li><a href="">厦门</a></li>
+                            <li><a href="">长沙</a></li>
+                            <li><a href="">青岛</a></li>
+                            <li><a href="">深圳</a></li>
+                            <li><a href="">天津</a></li>
+                            <li><a href="">苏州</a></li>
+                        </ul>
+                        <div class="item-header">
+                            <span>热门房源</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">复式Loft</a></li>
+                            <li><a href="">别墅</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span>猫眼电影</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">独行月球</a></li>
+                            <li><a href="">明日战记</a></li>
+                            <li><a href="">遇见你</a></li>
+                            <li><a href="">神探大战</a></li>
+                            <li><a href="">人生大事</a></li>
+                            <li><a href="">我们的样子像极了爱情</a></li>
+                            <li><a href="">迷你世界之觉醒</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <li><a href="">小马宝莉:新世代</a></li>
+                            <li><a href="">侏罗纪世界3</a></li>
+                            <li><a href="">一直一直都很喜欢你</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span>机票</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">国内机票</a></li>
+                            <li><a href="">国际/港澳台机票</a></li>
+                        </ul>
+                        <div class="item-header">
+                            <span>火车票</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">火车票</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span>休闲娱乐</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">足疗按摩</a></li>
+                            <li><a href="">洗浴/汗蒸</a></li>
+                            <li><a href="">酒吧</a></li>
+                            <li><a href="">密室逃脱</a></li>
+                            <li><a href="">轰趴馆</a></li>
+                            <li><a href="">茶馆</a></li>
+                            <li><a href="">私人影院</a></li>
+                            <li><a href="">DIY手工坊</a></li>
+                            <li><a href="">采摘/农家乐</a></li>
+                            <li><a href="">网吧网咖</a></li>&nbsp;&nbsp;&nbsp;
+                            <li><a href="">游乐游艺</a></li>
+                            <li><a href="">VR</a></li>
+                            <li><a href="">桌面游戏</a></li>
+                            <li><a href="">真人CS</a></li>
+                            <li><a href="">棋牌室</a></li>
+                            <li><a href="">其他玩乐</a></li>
+                        </ul>
+                        <div class="item-header">
+                            <span>KTV</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">KTV</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span>生活服务</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">衣物/皮具洗护</a></li>
+                            <li><a href="">家政</a></li>
+                            <li><a href="">搬家运输</a></li>
+                            <li><a href="">送水</a></li>
+                            <li><a href="">充值缴费</a></li>
+                            <li><a href="">服饰/鞋包养护</a></li>
+                            <li><a href="">开锁换锁</a></li>
+                            <li><a href="">居家维修</a></li>
+                            <li><a href="">管道疏通</a></li>
+                            <li><a href="">家电维修清洗</a></li>
+                            <li><a href="">电脑维修</a></li>
+                            <li><a href="">手机维修</a></li>
+                            <li><a href="">证件照/肖像摄影</a></li>
+                            <li><a href="">照片冲印/图文文印</a></li>
+                            <li><a href="">商务服务/法律服务</a></li>
+                            <li><a href="">文化传媒机构</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <li><a href="">成人用品/情趣用品</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span>丽人</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">美发</a></li>
+                            <li><a href="">美甲美睫</a></li>
+                            <li><a href="">美容美体</a></li>
+                            <li><a href="">医学美容</a></li>
+                            <li><a href="">瑜伽舞蹈</a></li>
+                            <li><a href="">瘦身纤体</a></li>
+                            <li><a href="">韩式定妆</a></li>
+                            <li><a href="">祛痘</a></li>
+                            <li><a href="">纹身</a></li>
+                            <li><a href="">化妆品</a></li>
+                            <li><a href="">养发</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span>结婚</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">婚纱摄影</a></li>
+                            <li><a href="">旅拍</a></li>
+                            <li><a href="">个性写真</a></li>
+                            <li><a href="">医学美容</a></li>
+                            <li><a href="">瑜伽舞蹈</a></li>
+                            <li><a href="">瘦身纤体</a></li>
+                            <li><a href="">韩式定妆</a></li>
+                            <li><a href="">祛痘</a></li>
+                            <li><a href="">纹身</a></li>
+                            <li><a href="">化妆品</a></li>
+                            <li><a href="">养发</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span>儿童乐园</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">婴儿游泳</a></li>
+                            <li><a href="">其他亲子游乐</a></li>
+                        </ul>
+                        <div class="item-header">
+                            <span>幼儿教育</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">早教中心</a></li>
+                            <li><a href="">少儿英语</a></li>
+                            <li><a href="">智力开发</a></li>
+                            <li><a href="">托班/幼儿园</a></li>
+                            <li><a href="">幼儿教育</a></li>
+                            <li><a href="">其他幼儿教育</a></li>
+                        </ul>
+                        <div class="item-header">
+                            <span>亲子摄影</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">儿童摄影</a></li>
+                            <li><a href="">孕妇写真</a></li>
+                            <li><a href="">上门拍</a></li>
+                            <li><a href="">其他亲子摄影</a></li>
+                        </ul>
+                        <div class="item-header">
+                            <span>孕产护理</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">月子会所</a></li>
+                            <li><a href="">产后恢复</a></li>
+                            <li><a href="">妇幼医院</a></li>
+                            <li><a href="">孕产用品</a></li>
+                            <li><a href="">开奶催乳</a></li>
+                            <li><a href="">月嫂</a></li>
+                            <li><a href="">亲子购物</a></li>
+                            <li><a href="">宝宝派对</a></li>
+                            <li><a href="">亲子服务</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span>运动健身</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">健身中心</a></li>
+                            <li><a href="">武术教馆</a></li>
+                            <li><a href="">游泳馆</a></li>
+                            <li><a href="">羽毛球馆</a></li>
+                            <li><a href="">溜冰场</a></li>
+                            <li><a href="">射箭馆</a></li>
+                            <li><a href="">篮球场</a></li>
+                            <li><a href="">网球馆</a></li>
+                            <li><a href="">台球馆</a></li>
+                            <li><a href="">乒乓球馆</a></li>
+                            <li><a href="">足球场</a></li>
+                            <li><a href="">高尔夫场</a></li>
+                            <li><a href="">保龄球馆</a></li>
+                            <li><a href="">体育场馆</a></li>
+                            <li><a href="">马术馆</a></li>
+                            <li><a href="">更多运动</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span>装修设计</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">半包装修</a></li>
+                            <li><a href="">全包装修</a></li>
+                            <li><a href="">清包装修</a></li>
+                        </ul>
+                        <div class="item-header">
+                            <span>装修建材</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">地板</a></li>
+                            <li><a href="">瓷砖石材</a></li>
+                            <li><a href="">橱柜</a></li>
+                            <li><a href="">灯饰照明</a></li>
+                            <li><a href="">厨卫洁具</a></li>
+                            <li><a href="">油漆涂料</a></li>
+                            <li><a href="">集成吊顶</a></li>
+                            <li><a href="">墙纸墙艺</a></li>
+                            <li><a href="">门窗</a></li>
+                            <li><a href="">木材板材</a></li>
+                            <li><a href="">家用五金</a></li>
+                            <li><a href="">电工电料</a></li>
+                            <li><a href="">楼梯</a></li>
+                            <li><a href="">管材管件</a></li>
+                        </ul>
+                        <div class="item-header">
+                            <span>家具家居</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">家具</a></li>
+                            <li><a href="">床上用品/家纺</a></li>
+                            <li><a href="">家居饰品</a></li>
+                            <li><a href="">厨具餐具</a></li>
+                            <li><a href="">智能家居</a></li>
+                        </ul>
+                        <div class="item-header">
+                            <span>家装卖场</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">建材卖场</a></li>
+                            <li><a href="">家居卖场</a></li>
+                            <li><a href="">灯饰卖场</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span>音乐培训</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">钢琴</a></li>
+                            <li><a href="">吉他</a></li>
+                            <li><a href="">小提琴</a></li>
+                            <li><a href="">古筝</a></li>
+                            <li><a href="">架子鼓</a></li>
+                            <li><a href="">声乐</a></li>
+                            <li><a href="">其他音乐培训</a></li>
+                        </ul>
+                        <div class="item-header">
+                            <span>职业技术</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">美容化妆</a></li>
+                            <li><a href="">会计</a></li>
+                            <li><a href="">IT</a></li>
+                            <li><a href="">厨艺</a></li>
+                            <li><a href="">管理培训</a></li>
+                            <li><a href="">摄影培训</a></li>
+                            <li><a href="">司法考试</a></li>
+                            <li><a href="">公务员培训</a></li>
+                            <li><a href="">其他职业培训</a></li>
+                        </ul>
+                        <div class="item-header">
+                            <span>外语培训</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">英语</a></li>
+                            <li><a href="">日语</a></li>
+                            <li><a href="">韩语</a></li>
+                            <li><a href="">法语</a></li>
+                            <li><a href="">德语</a></li>
+                            <li><a href="">西班牙语</a></li>
+                            <li><a href="">其他外语</a></li>
+                        </ul>
+                        <div class="item-header">
+                            <span>美术培训</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">绘画</a></li>
+                            <li><a href="">书法</a></li>
+                            <li><a href="">其他美术</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span>医疗健康</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">医院</a></li>
+                            <li><a href="">体检中心</a></li>
+                            <li><a href="">药店</a></li>
+                            <li><a href="">中医</a></li>
+                            <li><a href="">其他健康服务</a></li>
+                        </ul>
+                        <div class="item-header">
+                            <span>爱车</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">洗车</a></li>
+                            <li><a href="">租车</a></li>
+                            <li><a href="">加油站</a></li>
+                            <li><a href="">维修保养</a></li>
+                            <li><a href="">驾校</a></li>
+                            <li><a href="">汽车美容</a></li>
+                            <li><a href="">陪练</a></li>
+                            <li><a href="">停车场</a></li>
+                            <li><a href="">汽车保险</a></li>
+                            <li><a href="">4S店/汽车销售</a></li>
+                            <li><a href="">二手车</a></li>
+                            <li><a href="">广告驾校</a></li>
+                            <li><a href="">交警队</a></li>
+                            <li><a href="">汽车配件</a></li>
+                        </ul>
+                        <div class="item-header">
+                            <span>宠物</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">宠物店</a></li>
+                            <li><a href="">宠物医院</a></li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item-header">
+                            <span>玩乐</span>
+                            <a href="">更多 <i class="fa fa-angle-right"></i></a>
+                        </div>
+                        <ul>
+                            <li><a href="">KTV</a></li>
+                            <li><a href="">酒吧</a></li>
+                            <li><a href="">密室逃脱</a></li>
+                            <li><a href="">游乐游艺</a></li>
+                            <li><a href="">网吧网咖</a></li>
+                            <li><a href="">私人影院</a></li>
+                            <li><a href="">DIY手工坊</a></li>
+                            <li><a href="">桌面游戏</a></li>
+                            <li><a href="">VR</a></li>
+                            <li><a href="">其他玩乐</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main-middle">
+                <div class="action">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <!-- 小圆点 -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        </ol>
+                        <!-- 轮播图 -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-interval="3000">
+                                <img src="../image/icon-1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="3000">
+                                <img src="../image/icon-2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="3000">
+                                <img src="../image/icon-3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="3000">
+                                <img src="../image/icon-4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="3000">
+                                <img src="../image/icon-5.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="sing">
+                    <img src="../image/sing.jpg" alt="">
+                </div>
+                <div class="item-1">
+                    <img src="../image/icon-1.jpg" alt="">
+                </div>
+                <div class="item-2">
+                    <img src="../image/icon-6.jpg" alt="">
+                </div>
+                <div class="famliy">
+                    <img src="../image/item.jpg" alt="">
+                </div>
+            </div>
+            <div class="main-right">
+                <div class="login">
+                    <img src="../image/logo-3.png" alt="">
+                    <span>Hi ! 你好</span>
+                    <button><a href="">立即登录</a></button>
+                    <button><a href="">注册</a></button>
+                </div>
+                <div class="ew">
+                    <img src="../image/二维码.png" alt="">
+                    <span>美团APP手机版</span>
+                    <span><i>1元起</i> 吃喝玩乐</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="acticle">
+        <div class="middle-4">
+            <div class="acticle-header">
+                <h3>猫眼电影</h3>
+                <span>正在热映
+                    <div class="activer" style="display: block;"></div>
+                </span>
+                <span>即将上映
+                    <div class="activer"></div>
+                </span>
+                <a href="">全部 <i class="fa fa-angle-right"></i></a>
+            </div>
+            <div class="acticle-main">
+                <div class="acticle-item">
+                </div>
+                <div class="acticle-item">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="">
+                                    <img src="../image/moive-1.jpg" alt="">
+                                    <span> <i>61355</i>人想看<br><i>迷你世界之</i></span>
+                                    <button>购票</button>
+                                </a>
+                                <a href="">
+                                    <img src="../image/moive-2.jpg" alt="">
+                                    <span> <i>141355</i>人想看<br><i>迷你世界之</i></span>
+                                    <button>购票</button>
+                                </a>
+                                <a href="">
+                                    <img src="../image/moive-3.jpg" alt="">
+                                    <span> <i>91355</i>人想看<br><i>迷你世界之</i></span>
+                                    <button>购票</button>
+                                    <div class="Imax-1"></div>
+                                </a>
+                                <a href="">
+                                    <img src="../image/moive-4.jpg" alt="">
+                                    <span> <i>15355</i>人想看<br><i>迷你世界之</i></span>
+                                    <button>购票</button>
+                                </a>
+                                <a href="">
+                                    <img src="../image/moive-5.jpg" alt="">
+                                    <span> <i>75355</i>人想看<br><i>迷你世界之</i></span>
+                                    <button>购票</button>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="">
+                                    <img src="../image/moive-6.jpg" alt="">
+                                    <span> <i>9355</i>人想看<br><i>迷你世界之</i></span>
+                                    <button>购票</button>
+                                </a>
+                                <a href="">
+                                    <img src="../image/moive-7.jpg" alt="">
+                                    <span> <i>11355</i>人想看<br><i>迷你世界之</i></span>
+                                    <button>购票</button>
+                                    <div class="Imax-2"></div>
+                                </a>
+                                <a href="">
+                                    <img src="../image/moive-8.jpg" alt="">
+                                    <span> <i>38355</i>人想看<br><i>迷你世界之</i></span>
+                                    <button>购票</button>
+                                    <div class="Imax-3"></div>
+                                </a>
+                                <a href="">
+                                    <img src="../image/moive-4.jpg" alt="">
+                                    <span> <i>66355</i>人想看<br><i>迷你世界之</i></span>
+                                    <button>购票</button>
+                                </a>
+                                <a href="">
+                                    <img src="../image/moive-5.jpg" alt="">
+                                    <span> <i>83355</i>人想看<br><i>迷你世界之</i></span>
+                                    <button>购票</button>
+                                    <div class="Imax"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="acticle-item">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="">
+                                    <img src="../image/moive-9.jpg" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="../image/moive-10.jpg" alt="">
+                                    <span> <i>91355</i>人想看<br><i>迷你世界之</i></span>
+                                    <button>购票</button>
+                                    <div class="Imax-1"></div>
+                                </a>
+                                <a href=""><img src="../image/moive-11.jpg" alt=""></a>
+                                <a href="">
+                                    <img src="../image/moive-12.jpg" alt="">
+                                    <span> <i>91355</i>人想看<br><i>迷你世界之</i></span>
+                                    <button>购票</button>
+                                    <div class="Imax-1"></div>
+                                </a>
+                                <a href=""><img src="../image/moive-13.jpg" alt=""></a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href=""><img src="../image/moive-14.jpg" alt=""></a>
+                                <a href="">
+                                    <img src="../image/moive-15.jpg" alt="">
+                                    <span> <i>91355</i>人想看<br><i>迷你世界之</i></span>
+                                    <button>购票</button>
+                                    <div class="Imax-1"></div>
+                                </a>
+                                <a href="">
+                                    <img src="../image/moive-16.jpg" alt="">
+                                    <span> <i>91355</i>人想看<br><i>迷你世界之</i></span>
+                                    <button>购票</button>
+                                    <div class="Imax-3"></div>
+                                </a>
+                                <a href=""><img src="../image/moive-17.jpg" alt=""></a>
+                                <a href=""><img src="../image/moive-1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="middle-5">
+            <div class="column-header">
+                <h3>推荐名宿</h3>
+                <ul>
+                    <li>武汉
+                        <div class="activee" style="display: block;"></div>
+                    </li>
+                    <li>南京
+                        <div class="activee"></div>
+                    </li>
+                    <li>长沙
+                        <div class="activee"></div>
+                    </li>
+                    <li>杭州
+                        <div class="activee"></div>
+                    </li>
+                    <li>合肥
+                        <div class="activee"></div>
+                    </li>
+                    <li>福州
+                        <div class="activee"></div>
+                    </li>
+                    <li>宜昌
+                        <div class="activee"></div>
+                    </li>
+                    <li>泉州
+                        <div class="activee"></div>
+                    </li>
+                    <li>漳州
+                        <div class="activee"></div>
+                    </li>
+                    <li>黄山
+                        <div class="activee"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="column-main">
+                <div class="column-item" style="display: block;">
+                    <div class="subitem">
+                        <div class="item-1">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-1.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>56
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-1.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-2">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-2.jpg" alt="">
+                                <span>【夕月小居】王家湾公寓,日系小清新...</span>
+                                <p>整套一居室·可住一人|屯口经济开发区(武汉国际博览中心)</p>
+                                <h3>
+                                    <div class="money">￥</div>168
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-2.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-3">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-3.jpg" alt="">
+                                <span>舒适大床房/藏龙东街地铁站...</span>
+                                <p>整套一居室·可住3人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>99
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-3.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-4">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-4.jpg" alt="">
+                                <span>【八月客栈 <i class=" fa fa-star"></i> 清新田园】原创设计I田...</span>
+                                <p>整套一居室·可住2人|屯口/武汉体育中心/江汉大学</p>
+                                <h3>
+                                    <div class="money">￥</div>248
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-4.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-5">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-5.jpg" alt="">
+                                <span>小双人间/可长租/汉口火车站/万松园/天...</span>
+                                <p>整套一居室·可住2人|汉口火车站地区(园博园)</p>
+                                <h3>
+                                    <div class="money">￥</div>198
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-5.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-6">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-6.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>155
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo5.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-item">
+                    <div class="subitem">
+                        <div class="item-1">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-7.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>56
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-6.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-2">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-8.jpg" alt="">
+                                <span>【夕月小居】王家湾公寓,日系小清新...</span>
+                                <p>整套一居室·可住一人|屯口经济开发区(武汉国际博览中心)</p>
+                                <h3>
+                                    <div class="money">￥</div>168
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-7.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-3">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-9.jpg" alt="">
+                                <span>舒适大床房/藏龙东街地铁站...</span>
+                                <p>整套一居室·可住3人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>99
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-8.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-4">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-10.jpg" alt="">
+                                <span>【八月客栈 <i class=" fa fa-star"></i> 清新田园】原创设计I田...</span>
+                                <p>整套一居室·可住2人|屯口/武汉体育中心/江汉大学</p>
+                                <h3>
+                                    <div class="money">￥</div>248
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-9.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-5">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-11.jpg" alt="">
+                                <span>小双人间/可长租/汉口火车站/万松园/天...</span>
+                                <p>整套一居室·可住2人|汉口火车站地区(园博园)</p>
+                                <h3>
+                                    <div class="money">￥</div>198
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-10.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-6">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-12.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>155
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-11.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-item">
+                    <div class="subitem">
+                        <div class="item-1">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-15.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>56
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-12.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-2">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-16.jpg" alt="">
+                                <span>【夕月小居】王家湾公寓,日系小清新...</span>
+                                <p>整套一居室·可住一人|屯口经济开发区(武汉国际博览中心)</p>
+                                <h3>
+                                    <div class="money">￥</div>168
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-13.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-3">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-17.jpg" alt="">
+                                <span>舒适大床房/藏龙东街地铁站...</span>
+                                <p>整套一居室·可住3人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>99
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-14.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-4">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-18.jpg" alt="">
+                                <span>【八月客栈 <i class=" fa fa-star"></i> 清新田园】原创设计I田...</span>
+                                <p>整套一居室·可住2人|屯口/武汉体育中心/江汉大学</p>
+                                <h3>
+                                    <div class="money">￥</div>248
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-15.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-5">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-19.jpg" alt="">
+                                <span>小双人间/可长租/汉口火车站/万松园/天...</span>
+                                <p>整套一居室·可住2人|汉口火车站地区(园博园)</p>
+                                <h3>
+                                    <div class="money">￥</div>198
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-16.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-6">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-20.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>155
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-17.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-item">
+                    <div class="subitem">
+                        <div class="item-1">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-21.png" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>56
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-18.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-2">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-22.jpg" alt="">
+                                <span>【夕月小居】王家湾公寓,日系小清新...</span>
+                                <p>整套一居室·可住一人|屯口经济开发区(武汉国际博览中心)</p>
+                                <h3>
+                                    <div class="money">￥</div>168
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-19.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-3">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-24.jpg" alt="">
+                                <span>舒适大床房/藏龙东街地铁站...</span>
+                                <p>整套一居室·可住3人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>99
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-20.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-4">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-25.jpg" alt="">
+                                <span>【八月客栈 <i class=" fa fa-star"></i> 清新田园】原创设计I田...</span>
+                                <p>整套一居室·可住2人|屯口/武汉体育中心/江汉大学</p>
+                                <h3>
+                                    <div class="money">￥</div>248
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-21.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-5">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-26.jpg" alt="">
+                                <span>小双人间/可长租/汉口火车站/万松园/天...</span>
+                                <p>整套一居室·可住2人|汉口火车站地区(园博园)</p>
+                                <h3>
+                                    <div class="money">￥</div>198
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-22.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-6">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-27.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>155
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-23.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-item">
+                    <div class="subitem">
+                        <div class="item-1">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-28.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>56
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-24.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-2">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-29.jpg" alt="">
+                                <span>【夕月小居】王家湾公寓,日系小清新...</span>
+                                <p>整套一居室·可住一人|屯口经济开发区(武汉国际博览中心)</p>
+                                <h3>
+                                    <div class="money">￥</div>168
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-24.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-3">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-30.jpg" alt="">
+                                <span>舒适大床房/藏龙东街地铁站...</span>
+                                <p>整套一居室·可住3人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>99
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-25.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-4">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-31.jpg" alt="">
+                                <span>【八月客栈 <i class=" fa fa-star"></i> 清新田园】原创设计I田...</span>
+                                <p>整套一居室·可住2人|屯口/武汉体育中心/江汉大学</p>
+                                <h3>
+                                    <div class="money">￥</div>248
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-26.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-5">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-33.jpg" alt="">
+                                <span>小双人间/可长租/汉口火车站/万松园/天...</span>
+                                <p>整套一居室·可住2人|汉口火车站地区(园博园)</p>
+                                <h3>
+                                    <div class="money">￥</div>198
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-27.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-6">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-34.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>155
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-28.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-item">
+                    <div class="subitem">
+                        <div class="item-1">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-35.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>56
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-30.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-2">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-36.jpg" alt="">
+                                <span>【夕月小居】王家湾公寓,日系小清新...</span>
+                                <p>整套一居室·可住一人|屯口经济开发区(武汉国际博览中心)</p>
+                                <h3>
+                                    <div class="money">￥</div>168
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-31.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-3">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-37.jpg" alt="">
+                                <span>舒适大床房/藏龙东街地铁站...</span>
+                                <p>整套一居室·可住3人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>99
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-32.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-4">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-39.jpg" alt="">
+                                <span>【八月客栈 <i class=" fa fa-star"></i> 清新田园】原创设计I田...</span>
+                                <p>整套一居室·可住2人|屯口/武汉体育中心/江汉大学</p>
+                                <h3>
+                                    <div class="money">￥</div>248
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-32.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-5">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-40.jpg" alt="">
+                                <span>小双人间/可长租/汉口火车站/万松园/天...</span>
+                                <p>整套一居室·可住2人|汉口火车站地区(园博园)</p>
+                                <h3>
+                                    <div class="money">￥</div>198
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-33.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-6">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-41.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>155
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-34.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-item">
+                    <div class="subitem">
+                        <div class="item-1">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-42.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>56
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-35.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-2">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-43.jpg" alt="">
+                                <span>【夕月小居】王家湾公寓,日系小清新...</span>
+                                <p>整套一居室·可住一人|屯口经济开发区(武汉国际博览中心)</p>
+                                <h3>
+                                    <div class="money">￥</div>168
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-36.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-3">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-44.jpg" alt="">
+                                <span>舒适大床房/藏龙东街地铁站...</span>
+                                <p>整套一居室·可住3人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>99
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo37.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-4">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-45.jpg" alt="">
+                                <span>【八月客栈 <i class=" fa fa-star"></i> 清新田园】原创设计I田...</span>
+                                <p>整套一居室·可住2人|屯口/武汉体育中心/江汉大学</p>
+                                <h3>
+                                    <div class="money">￥</div>248
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo37.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-5">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-46.png" alt="">
+                                <span>小双人间/可长租/汉口火车站/万松园/天...</span>
+                                <p>整套一居室·可住2人|汉口火车站地区(园博园)</p>
+                                <h3>
+                                    <div class="money">￥</div>198
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo37.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-6">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-47.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>155
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-26.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-item">
+                    <div class="subitem">
+                        <div class="item-1">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-48.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>56
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo43.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-2">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-49.jpg" alt="">
+                                <span>【夕月小居】王家湾公寓,日系小清新...</span>
+                                <p>整套一居室·可住一人|屯口经济开发区(武汉国际博览中心)</p>
+                                <h3>
+                                    <div class="money">￥</div>168
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo44.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-3">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-50.jpg" alt="">
+                                <span>舒适大床房/藏龙东街地铁站...</span>
+                                <p>整套一居室·可住3人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>99
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo46.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-4">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-51.jpg" alt="">
+                                <span>【八月客栈 <i class=" fa fa-star"></i> 清新田园】原创设计I田...</span>
+                                <p>整套一居室·可住2人|屯口/武汉体育中心/江汉大学</p>
+                                <h3>
+                                    <div class="money">￥</div>248
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo47.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-5">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-15.jpg" alt="">
+                                <span>小双人间/可长租/汉口火车站/万松园/天...</span>
+                                <p>整套一居室·可住2人|汉口火车站地区(园博园)</p>
+                                <h3>
+                                    <div class="money">￥</div>198
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo48.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-6">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-16.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>155
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-35.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-item">
+                    <div class="subitem">
+                        <div class="item-1">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-1.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>56
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-1.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-2">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-5.jpg" alt="">
+                                <span>【夕月小居】王家湾公寓,日系小清新...</span>
+                                <p>整套一居室·可住一人|屯口经济开发区(武汉国际博览中心)</p>
+                                <h3>
+                                    <div class="money">￥</div>168
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-5.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-3">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-9.jpg" alt="">
+                                <span>舒适大床房/藏龙东街地铁站...</span>
+                                <p>整套一居室·可住3人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>99
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-9.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-4">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-15.jpg" alt="">
+                                <span>【八月客栈 <i class=" fa fa-star"></i> 清新田园】原创设计I田...</span>
+                                <p>整套一居室·可住2人|屯口/武汉体育中心/江汉大学</p>
+                                <h3>
+                                    <div class="money">￥</div>248
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-14.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-5">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-17.jpg" alt="">
+                                <span>小双人间/可长租/汉口火车站/万松园/天...</span>
+                                <p>整套一居室·可住2人|汉口火车站地区(园博园)</p>
+                                <h3>
+                                    <div class="money">￥</div>198
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-17.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-6">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-20.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>155
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-20.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-item">
+                    <div class="subitem">
+                        <div class="item-1">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-24.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>56
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-24.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-2">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-25.jpg" alt="">
+                                <span>【夕月小居】王家湾公寓,日系小清新...</span>
+                                <p>整套一居室·可住一人|屯口经济开发区(武汉国际博览中心)</p>
+                                <h3>
+                                    <div class="money">￥</div>168
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-25.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-3">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-30.jpg" alt="">
+                                <span>舒适大床房/藏龙东街地铁站...</span>
+                                <p>整套一居室·可住3人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>99
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-30.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-4">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-33.jpg" alt="">
+                                <span>【八月客栈 <i class=" fa fa-star"></i> 清新田园】原创设计I田...</span>
+                                <p>整套一居室·可住2人|屯口/武汉体育中心/江汉大学</p>
+                                <h3>
+                                    <div class="money">￥</div>248
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-18.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-5">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-44.jpg" alt="">
+                                <span>小双人间/可长租/汉口火车站/万松园/天...</span>
+                                <p>整套一居室·可住2人|汉口火车站地区(园博园)</p>
+                                <h3>
+                                    <div class="money">￥</div>198
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-34.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item-6">
+                            <a href="https://www.baidu.com/">
+                                <img src="../image/名宿-50.jpg" alt="">
+                                <span>【武汉晶鼎名宿】特惠单人间/地铁...</span>
+                                <p>整套一居室·可住一人|藏龙岛/江夏区大学城</p>
+                                <h3>
+                                    <div class="money">￥</div>155
+                                </h3>
+                                <div class="circle">
+                                    <img src="../image/名宿logo-23.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="like">
+        <div class="middle-6">
+            <div class="like-header">
+                <span>猜你喜欢</span>
+                <p>为你甄选最合适的
+                <div class="activver" style="display: block;"></div>
+                </p>
+            </div>
+            <div class="like-main">
+                <div class="like-item-1">
+                    <a href="">
+                        <img src="../image/猜-1.jpg" alt="">
+                        <p>Tonight凸奈造型专业无痕...</p>
+                        <span>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <div class="appraise">3470个评价</div>
+                        </span>
+                        <h6>万达广场</h6>
+                        <h3>
+                            <div class="money-2">￥</div>30.0 <div class="money-2">起</div>
+                        </h3>
+                    </a>
+                </div>
+                <div class="like-item-2">
+                    <a href="">
+                        <img src="../image/猜-2.png" alt="">
+                        <p>盛世经典牛排自助餐厅(南...</p>
+                        <span>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star-half-o">&nbsp;</i>
+                            <div class="appraise">10876个评价</div>
+                        </span>
+                        <h6>瑶湖区</h6>
+                        <h3>
+                            <div class="money-2">￥</div>69.0 <div class="money-2">起</div>
+                        </h3>
+                    </a>
+                </div>
+                <div class="like-item-3">
+                    <a href="">
+                        <img src="../image/猜-3.jpg" alt="">
+                        <p>涞源西饼生日蛋糕(经开区...</p>
+                        <span>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <div class="appraise">228个评价</div>
+                        </span>
+                        <h6>下罗</h6>
+                        <h3>
+                            <div class="money-2">￥</div>12.8 <div class="money-2">起</div>
+                        </h3>
+                    </a>
+                </div>
+                <div class="like-item-4">
+                    <a href="">
+                        <img src="../image/猜-4.png" alt="">
+                        <p>慕言hair salon(名门世家...</p>
+                        <span>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <div class="appraise">3444个评价</div>
+                        </span>
+                        <h6>名门世家</h6>
+                        <h3>
+                            <div class="money-2">￥</div>25.0 <div class="money-2">起</div>
+                        </h3>
+                    </a>
+                </div>
+                <div class="like-item-5">
+                    <a href="">
+                        <img src="../image/猜-5.jpg" alt="">
+                        <p>雪贝尔Shaber面包花园(世...</p>
+                        <span>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <div class="appraise">1670个评价</div>
+                        </span>
+                        <h6>新建区中心城区</h6>
+                        <h3>
+                            <div class="money-2">￥</div>8.0 <div class="money-2">起</div>
+                        </h3>
+                    </a>
+                </div>
+                <div class="like-item-6">
+                    <a href="">
+                        <img src="../image/猜-7.jpg" alt="">
+                        <p>欧黎美发连锁(象湖店)</p>
+                        <span>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <div class="appraise">715个评价</div>
+                        </span>
+                        <h6>象湖</h6>
+                        <h3>
+                            <div class="money-2">￥</div>37.9 <div class="money-2">起</div>
+                        </h3>
+                    </a>
+                </div>
+                <div class="like-item-7">
+                    <a href="">
+                        <img src="../image/猜-8.png" alt="">
+                        <p>VanCat梵猫(国体明园店)</p>
+                        <span>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <div class="appraise">347个评价</div>
+                        </span>
+                        <h6>南昌西站</h6>
+                        <h3>
+                            <div class="money-2">￥</div>69.0 <div class="money-2">起</div>
+                        </h3>
+                    </a>
+                </div>
+                <div class="like-item-8">
+                    <a href="">
+                        <img src="../image/猜-9.jpg" alt="">
+                        <p>YDO SALON(王府井店)...</p>
+                        <span>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <div class="appraise">4730个评价</div>
+                        </span>
+                        <h6>十字街</h6>
+                        <h3>
+                            <div class="money-2">￥</div>15.0 <div class="money-2">起</div>
+                        </h3>
+                    </a>
+                </div>
+                <div class="like-item-9">
+                    <a href="">
+                        <img src="../image/猜-10.png" alt="">
+                        <p>丽人束发</p>
+                        <span>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <div class="appraise">1008个评价</div>
+                        </span>
+                        <h6>恒茂梦时代</h6>
+                        <h3>
+                            <div class="money-2">￥</div>36.0 <div class="money-2">起</div>
+                        </h3>
+                    </a>
+                </div>
+                <div class="like-item-10">
+                    <a href="">
+                        <img src="../image/猜-11.jpg" alt="">
+                        <p>涩谷l(恒茂梦时代广...</p>
+                        <span>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <div class="appraise">12929个评价</div>
+                        </span>
+                        <h6>恒茂梦时代</h6>
+                        <h3>
+                            <div class="money-2">￥</div>9.9<div class="money-2">起</div>
+                        </h3>
+                    </a>
+                </div>
+                <div class="like-item-11">
+                    <a href="">
+                        <img src="../image/猜-12.jpg" alt="">
+                        <p>川西坝子(红谷滩店)</p>
+                        <span>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <div class="appraise">2351个评价</div>
+                        </span>
+                        <h6>卫东花园</h6>
+                        <h3>
+                            <div class="money-2">￥</div>9.0 <div class="money-2">起</div>
+                        </h3>
+                    </a>
+                </div>
+                <div class="like-item-12">
+                    <a href="">
+                        <img src="../image/猜-13.jpg" alt="">
+                        <p>2046照相馆(恒茂梦时代广...</p>
+                        <span>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <div class="appraise">1294个评价</div>
+                        </span>
+                        <h6>万达广场</h6>
+                        <h3>
+                            <div class="money-2">￥</div>79.0 <div class="money-2">起</div>
+                        </h3>
+                    </a>
+                </div>
+                <div class="like-item-13">
+                    <a href="">
+                        <img src="../image/猜-14.jpg" alt="">
+                        <p>黄记煌三汁焖锅...</p>
+                        <span>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <div class="appraise">3470个评价</div>
+                        </span>
+                        <h6>万达广场</h6>
+                        <h3>
+                            <div class="money-2">￥</div>45.9 <div class="money-2">起</div>
+                        </h3>
+                    </a>
+                </div>
+                <div class="like-item-14">
+                    <a href="">
+                        <img src="../image/猜-15.jpg" alt="">
+                        <p>小黑牛韩国烤肉(红谷滩万...</p>
+                        <span>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <div class="appraise">3470个评价</div>
+                        </span>
+                        <h6>万达广场</h6>
+                        <h3>
+                            <div class="money-2">￥</div>88.0 <div class="money-2">起</div>
+                        </h3>
+                    </a>
+                </div>
+                <div class="like-item-15">
+                    <a href="">
+                        <img src="../image/猜-1.jpg" alt="">
+                        <p>Tonight凸奈造型专业无痕...</p>
+                        <span>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <i class="fa fa-star">&nbsp;</i>
+                            <div class="appraise">3470个评价</div>
+                        </span>
+                        <h6>万达广场</h6>
+                        <h3>
+                            <div class="money-2">￥</div>30.0 <div class="money-2">起</div>
+                        </h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="middle-7">
+            <h4>美团导航</h4>
+            <div class="footer-item">
+                <h5>热门城市</h5>
+                <div class="subnav">
+                    <ul>
+                        <li><a href="">长春</a></li>
+                        <li><a href="">长沙</a></li>
+                        <li><a href="">福州</a></li>
+                        <li><a href="">无锡</a></li>
+                        <li><a href="">杭州</a></li>
+                        <li><a href="">常州</a></li>
+                        <li><a href="">天津</a></li>
+                        <li><a href="">昆明</a></li>
+                        <li><a href="">南宁</a></li>
+                        <li><a href="">重庆</a></li>
+                        <li><a href="">深圳</a></li>
+                        <li><a href="">苏州</a></li>
+                        <li><a href="">西安</a></li>
+                        <li><a href="">武汉</a></li>
+                        <li><a href="">广州</a></li>
+                        <li><a href="">合肥</a></li>
+                        <li><a href="">青岛</a></li>
+                        <li><a href="">郑州</a></li>
+                        <li><a href="">贵阳</a></li>
+                        <li><a href="">济南</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h5>热门人类</h5>
+                <div class="subnav">
+                    <ul>
+                        <li><a href="">酒店</a></li>
+                        <li><a href="">美食</a></li>
+                        <li><a href="">休闲娱乐</a></li>
+                        <li><a href="">运动健身</a></li>
+                        <li><a href="">生活服务</a></li>
+                        <li><a href="">上门服务</a></li>
+                        <li><a href="">购物</a></li>
+                        <li><a href="">时尚购</a></li>
+                        <li><a href="">本地购物</a></li>
+                        <li><a href="">结婚</a></li>
+                        <li><a href="">摄影写真</a></li>
+                        <li><a href="">宴会</a></li>
+                        <li><a href="">丽人</a></li>
+                        <li><a href="">母婴亲子</a></li>
+                        <li><a href="">学习培训</a></li>
+                        <li><a href="">家装</a></li>
+                        <li><a href="">汽车服务</a></li>
+                        <li><a href="">医疗</a></li>
+                        <li><a href="">宠物</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h5>周边热门</h5>
+                <div class="subnav">
+                    <ul>
+                        <li><a href="">奉新酒店</a></li>
+                        <li><a href="">高安美食</a></li>
+                        <li><a href="">高安休闲娱乐</a></li>
+                        <li><a href="">丰城运动健身</a></li>
+                        <li><a href="">丰城生活服务</a></li>
+                        <li><a href="">高安上门服务</a></li>
+                        <li><a href="">高安购物</a></li>
+                        <li><a href="">奉新时尚购</a></li>
+                        <li><a href="">高安本地购物</a></li>
+                        <li><a href="">高安结婚</a></li>
+                        <li><a href="">奉新摄影写真</a></li>
+                        <li><a href="">丰城宴会</a></li>
+                        <li><a href="">奉新丽人</a></li>
+                        <li><a href="">高安母婴亲子</a></li>
+                        <li><a href="">高安学习培训</a></li>
+                        <li><a href="">高安家装</a></li>
+                        <li><a href="">高安汽车服务</a></li>
+                        <li><a href="">丰城医疗</a></li>
+                        <li><a href="">奉新宠物</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="middle-8">
+            <div class="footer-main">
+                <div class="footer-icon">
+                    <h4>用户帮助</h4>
+                    <ul>
+                        <li><a href="">申请退款</a></li>
+                        <li><a href="">常见问题</a></li>
+                        <li><a href="">用户协议</a></li>
+                        <li><a href="">隐私政策</a></li>
+                        <li><a href="">反诈骗公告</a></li>
+                        <li><a href="">消费者权益保障</a></li>
+                    </ul>
+                    <h4 class="two">美团服务</h4>
+                    <ul>
+                        <li><a href="">美团外卖</a></li>
+                        <li><a href="">美团酒店</a></li>
+                        <li><a href="">猫眼酒店</a></li>
+                        <li><a href="">美团配送</a></li>
+                        <li><a href="">美团云</a></li>
+                        <li><a href="">大众点评</a></li>
+                        <li><a href="">美团名宿</a></li>
+                        <li><a href="">企业用餐、企业用车、企业差旅</a></li>
+                        <li><a href="">开发平台</a></li>
+                    </ul>
+                </div>
+                <div class="footer-icon">
+                    <h4>商家合作</h4>
+                    <ul>
+                        <li><a href="">美食商家入驻</a></li>
+                        <li><a href="">美团外卖开店申请</a></li>
+                        <li><a href="">美图餐饮系统</a></li>
+                        <li><a href="">美团配送合作申请</a></li>
+                        <li><a href="">美团餐饮培训</a></li>
+                        <li><a href="">境内度假商家入驻</a></li>
+                        <li><a href="">酒店商家入驻</a></li>
+                        <li><a href="">综合商家入驻</a></li>
+                        <li><a href="">美团民宿房东商家入驻</a></li>
+                        <li><a href="">商家开票申请</a></li>
+                        <li><a href="">美团智能收银机</a></li>
+                        <li><a href="">美团开放平台</a></li>
+                        <li><a href="">美团收单</a></li>
+                        <li><a href="">免费使用美团排队</a></li>
+                        <li><a href="">快驴进货商家合作</a></li>
+                        <li><a href="">美团闪购商家入驻</a></li>
+                    </ul>
+                </div>
+                <div class="footer-icon">
+                    <h4>合作商招募</h4>
+                    <ul>
+                        <li><a href="">美团外卖合作商招募</a></li>
+                        <li><a href="">到店餐饮合作商招募</a></li>
+                        <li><a href="">到店综合业务合作商招募</a></li>
+                        <li><a href="">美团联盟</a></li>
+                        <li><a href="">美团收银招募线上分销商</a></li>
+                        <li><a href="">美团收银合作商招募</a></li>
+                        <li><a href="">美团优选渠道合作商招募</a></li>
+                        <li><a href="">美团买菜合作商招募</a></li>
+                        <li><a href="">美团硬件设备合作商招募</a></li>
+                        <li><a href="">美团充电宝合作商招募</a></li>
+                    </ul>
+                </div>
+                <div class="footer-icon">
+                    <h4>关注美团</h4>
+                    <ul>
+                        <li><a href="">美团新浪微博</a></li>
+                    </ul>
+                    <h4 class="two">公司信息</h4>
+                    <ul>
+                        <li><a href="">关于我们</a></li>
+                        <li><a href="">投资者关系</a></li>
+                        <li><a href="">加入我们</a></li>
+                        <li><a href="">商户诚信公约及管理办法</a></li>
+                        <li><a href="">保险经纪资质</a></li>
+                    </ul>
+                    <h4 class="two">廉正举报</h4>
+                    <ul>
+                        <li><a href="">廉正举报平台</a></li>
+                    </ul>
+                </div>
+                <div class="footer-icon">
+                    <h4>消费者服务热线</h4>
+                    <ul>
+                        <li><a href="">猫眼消费者：10105335</a></li>
+                        <li><a href="">其他消费者：10107888</a></li>
+                        <li><a href="">外卖消费者：10109777</a></li>
+                    </ul>
+                    <h4 class="two">商家服务热线</h4>
+                    <ul>
+                        <li><a href="">外卖&餐饮商家：10105557</a></li>
+                        <li><a href="">休闲娱乐、丽人、ktv、教育、结婚、亲子、家装等商家：10100107</a></li>
+                        <li><a href="">申请退款</a></li>
+
+                    </ul>
+                    <h4 class="two">投诉举报专区</h4>
+                    <ul>
+                        <li><a href="">违法和不良信息举报电话：4006018900</a></li>
+                        <li><a href="">举报邮箱：tousujubao@meituan.com</a></li>
+                        <li><a href="">网上有害信息举报</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="middle-9">
+            <div class="footer-end">
+                <div class="end-left">
+                    <span>2022美团版权所有 &nbsp;&nbsp;&nbsp; </span>
+                    <span><a href="">京ICP证070791号</a> &nbsp;&nbsp;&nbsp;</span>
+                    <span><a href="">京ICP备10211739号-1</a></span>
+                    <p><a href="">广播电视节目制造经营许可证(京)字第03889号</a></p>
+                    <p><a href="">互联网药品信息服务资格证 (京)-经营性-2017-0014</a></p>
+                    <p><a href="">医疗器械网络交易服务第三方平台备案：（京）网械平台备字[2018]第00004号</a></p>
+                    <p><a href="">平台EDI许可证</a></p>
+                    <p><a href="">药品医疗器械网络信息服务备案编号：</a></p>
+                </div>
+                <div class="end-right">
+                    <p>
+                        <img src="../image/footlogo.png" alt="">
+                        <span><a href="">京公安备11000002002052号</a></span>
+                    </p>
+                  
+                   <div class="ending">
+                    <img src="../image/执照.png" alt="">
+                    <span><a href="">北京三快科技有限公司</a></span>
+                    <div class="right-1"></div>
+                    <div class="right-2"></div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
